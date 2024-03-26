@@ -1361,8 +1361,33 @@ h3 {
 		margin-right: 120px;
 	}
 
+	.bottom-info-text {
+		width: 264px;
+	}
+
 	.bottom-subscribe {
 		margin-left: auto;
+	}
+
+	footer .logo {
+		display: inline-block;
+		margin-bottom: 16px;
+		text-align: left;
+	}
+
+	.bottom-subscribe-email {
+		opacity: 1;
+	}
+
+	.bottom-subscribe-email::placeholder {
+		color: white;
+		opacity: 1;
+	}
+
+	.modal {
+		width: 408px;
+		min-height: 584px;
+		padding: 72px 24px 24px 24px;
 	}
 }
 @media (min-width: 1158px) and (min-resolution: 192dpi) {
