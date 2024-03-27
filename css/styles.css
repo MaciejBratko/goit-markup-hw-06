@@ -282,11 +282,18 @@ a.logo {
 	text-transform: capitalize;
 	padding: 0;
 }
-.contact-link.ham {
+.contact-info.ham {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.contact-info.ham:hover,
+.contact-info.ham:active,
+.contact-info.ham:focus {
+	color: #4d5ae5;
 }
 
 .menu-icon-ham {
@@ -304,7 +311,7 @@ a.logo {
 
 .main-section {
 	background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-		url(/images/mobile/people-office.jpg);
+		url(../images/mobile/people-office.jpg);
 	max-width: 320px;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -1089,7 +1096,7 @@ h3 {
 				rgba(46, 47, 66, 0.7),
 				rgba(46, 47, 66, 0.7)
 			),
-			url(/images/tablet/people-office.jpg);
+			url(../images/tablet/people-office.jpg);
 		min-width: 768px;
 		padding: 112px 0;
 	}
@@ -1193,7 +1200,7 @@ h3 {
 		flex-direction: row;
 		justify-content: center;
 		margin: 0 auto;
-		gap: 16px;
+		gap: 24px;
 	}
 
 	.bottom-subscribe-email {
@@ -1231,7 +1238,7 @@ h3 {
 				rgba(46, 47, 66, 0.7),
 				rgba(46, 47, 66, 0.7)
 			),
-			url(/images/tablet/people-office@2x.jpg);
+			url(../images/tablet/people-office@2x.jpg);
 	}
 }
 
@@ -1274,7 +1281,7 @@ h3 {
 				rgba(46, 47, 66, 0.7),
 				rgba(46, 47, 66, 0.7)
 			),
-			url(/images/desktop/people-office.jpg);
+			url(../images/desktop/people-office.jpg);
 		min-width: 1440px;
 		padding: 188px 0;
 	}
@@ -1396,6 +1403,6 @@ h3 {
 				rgba(46, 47, 66, 0.7),
 				rgba(46, 47, 66, 0.7)
 			),
-			url(/images/desktop/people-office@2x.jpg);
+			url(../images/desktop/people-office@2x.jpg);
 	}
 }
